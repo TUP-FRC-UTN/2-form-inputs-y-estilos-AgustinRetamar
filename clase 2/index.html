@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <title>clase 2- prog 3</title>
+</head>
+
+<body>
+    <form action="/" method="post">
+        Nombre: <br>
+        <input type="text" placeholder="Ingrese Nombre" name="nombre"> <br>
+        Apeliido: <br>
+        <input type="text" placeholder="Ingrese Apellido" name="apellido"> <br>
+        Seleccione Genero: <br>
+        <input type="radio" name="genero" id="genero" value="1"> Masculino <br>
+        <input type="radio" name="genero" id="genero" value="2"> Femenino <br>
+        <input type="radio" name="genero" id="genero" value="3" checked> No contesto <br>
+        <br>
+        Intereses: <br>
+
+        <input type="checkbox" name="intereses" id="intereses" checked>Deportes <br>
+        <input type="checkbox" name="intereses" id="intereses">Peliculas <br>
+        <input type="checkbox" name="intereses" id="intereses">Series <br>
+        <br>
+        <br>
+        Fecha de Nacimiento: <br>
+        <input type="date" name="fecha-nacimiento" id="fecha-nacimiento" min="2022-03-22" max="2022-03-25">
+        <br>
+        <br>
+        Seleccionar Provincia: <br>
+        <select name="provincia" id="provincia">
+            <option value="">Seleccione...</option>
+            <option value="1">Cordoba</option>
+            <option value="2">Buenos Aires</option>
+        </select>
+        <br>
+        <br>
+        Ingrese su comentario: <br>
+        <textarea name="comentario" id="comentario" cols="40" rows="20" placeholder="Ingrese su comentario"></textarea>
+        <br>
+        <br>
+        Ingrese su numero: <br>
+        <input type="number" name="numero" id="numero">
+        <br>
+        <br>
+        <button type="submit">Registrarse</button>
+        <button type="reset">Restablecer</button>
+    </form>
+</body>
+
+</html>

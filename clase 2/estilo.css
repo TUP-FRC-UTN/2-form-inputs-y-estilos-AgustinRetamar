@@ -1,0 +1,33 @@
+
+ /* para darle style a todos los elementos de la pagina como base*/
+ *{
+     font-family: 'Courier New', Courier, monospace;
+     font-size: larger;
+
+  }
+  .parrafo-negrita{
+ font-weight: bold;
+            font-size: large;
+        }
+        #parrafo-id{
+            border: 5px solid red;
+        }
+        p,
+        .parrafo-negrita,
+        #parrafo-id{
+            border: 10px solid green;
+        }
+        /* selector para elementos dentro de p sin importar jerarquia*/
+        p span{
+            color: chartreuse;
+            font-size: larger;
+        }
+        /* selector para elementos subsiguientes*/
+        p+span{
+            font-size: medium;
+            color: #000;
+        }
+        /* selector para elementos anidados en el primer nivel de jerarquia*/
+        p>span{
+            color: red;
+        }

@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <title>clase 2- prog 3- entrega</title>
+    <style>
+        h1{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: black;
+        }
+        h2{
+            color: blanchedalmond;
+        }
+        body{
+            color: beige;
+            background-color: brown;
+            font-size: x-large;
+        }
+        button{
+            width: 5%;
+            height: 5%;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Gimnasio</h1>
+    <h2>Formulario de Inscripcion</h2>
+    <form action="/"></form>
+    Nombre: <br>
+    <input type="text" placeholder="Ingrese Nombre" name="nombre"> <br>
+    Apellido: <br>
+    <input type="text" placeholder="Ingrese Apellido" name="apellido"> <br>
+ 
+    Ingrese su fecha de nacimiento: <br>
+    <input type="date" name="fecha-nac" id="fecha-nac"> <br>
+
+    Seleccione su Provincia: <br>
+    <select name="provincia" id="provincia">
+        <option value="">Seleccione...</option>
+        <option value="1">Cordoba</option>
+        <option value="2">Buenos Aires</option>
+        <option value="3">La Pampa</option>
+        <option value="4">Salta</option>
+        <option value="5">Neuquen</option>
+        <option value="6">Entre Rios</option>
+    </select>
+    <br>
+    Motivo de Inscripcion: <br>
+    <textarea name="comentario" id="comentario" cols="40" rows="10" placeholder="Elegi este gimnasio porque..."></textarea>
+    <br>
+    Seleccione Genero: <br>
+    <input type="radio" name="genero" id="genero" value="1"checked> Masculino <br>
+    <input type="radio" name="genero" id="genero" value="2"> Femenino <br>
+    <br>
+
+    Seleccione una opcion: <br>
+    <input type="radio" name="opcion" id="opcion" value="1"checked> Martes y Jueves <br>
+    <input type="radio" name="opcion" id="opcion" value="2"> Lunes y Viernes <br>
+    <br>
+        <button type="submit">Registrarse</button>
+        <button type="reset">Restablecer</button>         
+</body>
+</html>
